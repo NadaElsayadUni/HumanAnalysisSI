@@ -1,0 +1,8 @@
+opencv-python>=4.9.0,<5.0.0
+opencv-contrib-python
+numpy
+open3d
+matplotlib
+scikit-image
+ipykernel
+pathlib2>=2.3.0
