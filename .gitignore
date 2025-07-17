@@ -96,6 +96,6 @@ Thumbs.db
 # video/
 
 # Documentation
-*.pdf
+# *.pdf
 *.docx
 *.doc

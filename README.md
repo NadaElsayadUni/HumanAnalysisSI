@@ -7,7 +7,6 @@ This is a modular version of the human motion analysis system, breaking down the
 ```
 Nada_Elsayad_256292_SI/
 ├── main.py                      # Main script to run the analysis
-├── signal_image.py              # Original monolithic implementation
 ├── src/                         # Modular source code
 │   ├── __init__.py              # Main package exports
 │   ├── core/                    # Core analysis components
@@ -15,8 +14,7 @@ Nada_Elsayad_256292_SI/
 │   │   ├── analyzer.py          # Main orchestrator class
 │   │   ├── detection.py         # Object detection logic
 │   │   ├── tracking.py          # Object tracking logic
-│   │   ├── kalman_filter.py     # Kalman filtering
-│   │   └── occlusion.py         # Occlusion handling (placeholder)
+│   │   └── kalman_filter.py     # Kalman filtering
 │   └── utils/                   # Utility functions
 │       ├── __init__.py
 │       └── visualization.py     # Drawing and visualization
