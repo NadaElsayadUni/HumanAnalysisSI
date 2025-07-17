@@ -35,11 +35,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
-### 3. Alternative: Run Original Code
-```bash
-python signal_image.py
-```
-
 ## 🔧 Core Components
 
 ### 1. HumanMotionAnalyzer (`src/core/analyzer.py`)
@@ -97,23 +92,12 @@ The analysis generates several output files:
 
 ## 🔄 Migration from Original Code
 
-The modular structure maintains the same functionality as the original `signal_image.py` but with these improvements:
-
+The modular structure maintains:
 1. **Separation of Concerns**: Each component has a single responsibility
 2. **Reusability**: Components can be used independently
 3. **Testability**: Each component can be tested in isolation
 4. **Maintainability**: Easier to modify individual components
 5. **Extensibility**: Easy to add new features or components
-
-### Original vs Modular Structure
-
-| Original (`signal_image.py`) | Modular Structure |
-|------------------------------|-------------------|
-| Single large class (845 lines) | Multiple focused classes |
-| All functionality in one file | Separated by responsibility |
-| Hard to test individual parts | Each component testable |
-| Difficult to reuse components | Components reusable |
-| Hard to modify specific features | Easy to modify specific features |
 
 ## 🛠️ Usage Examples
 
